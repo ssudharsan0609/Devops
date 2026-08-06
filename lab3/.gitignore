@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+
+# DVC internal
+.dvc/
+
+# DVC-managed data & artifacts (tracked via dvc, not git)
+data/
+model.pkl

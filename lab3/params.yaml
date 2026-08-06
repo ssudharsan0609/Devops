@@ -1,0 +1,8 @@
+feature_engineering:
+  test_size: 0.2
+  random_state: 42
+
+model_building:
+  n_estimators: 200
+  max_depth: 6
+  random_state: 42
