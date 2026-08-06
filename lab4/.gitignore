@@ -1,0 +1,87 @@
+# ==========================================
+# Python & Virtual Environment Rules
+# ==========================================
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ==========================================
+# Large Model Binaries & Artifacts
+# ==========================================
+# Large binary model files (tracked via DVC / MLflow / Cloud storage)
+*.pkl
+*.joblib
+*.h5
+*.pb
+*.onnx
+*.pth
+*.tflite
+*.safetensors
+
+# ==========================================
+# Environment Variables & Secrets
+# ==========================================
+.env
+.env.*
+!.env.example
+
+# ==========================================
+# Jupyter Notebook Checkpoints & Cache
+# ==========================================
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# ==========================================
+# IDEs & Code Editors
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# ==========================================
+# OS & System Generated Files
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ==========================================
+# Logging & Debugging
+# ==========================================
+*.log
+logs/
+.coverage
+htmlcov/
+.pytest_cache/
